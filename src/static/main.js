@@ -27,7 +27,7 @@ const app = new Vue({
  }
 },
  created() {
-  this.socket = io('http://localhost:3000')
+  this.socket = io('https://aggressive-bell-bottoms-newt.cyclic.app/')
   this.socket.on('msgToClient', (message) => {
    this.receivedMessage(message)
   })
