@@ -1,0 +1,80 @@
+/* Body styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  /* Chat container styles */
+  #app {
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  /* Title styles */
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input container styles */
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .send-conatiner{
+    
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Message container styles */
+  #messages-container {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    max-height: 250px;
+    overflow-y: auto;
+  }
+  
+  /* Message styles */
+  .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .message-sender {
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .message-text {
+    color: #555555;
+  }
+  
+  /* Textarea styles */
+  #textarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  /* Send button styles */
+  #send {
+    width: 80px;
+    height: 80px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    font-size: 24px;
+    
+  }
+
+
+  
