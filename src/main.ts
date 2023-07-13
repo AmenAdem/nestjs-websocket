@@ -22,7 +22,7 @@ import { NestExpressApplication } from '@nestjs/platform-express';
 
 async function bootstrap() {
  const app = await NestFactory.create<NestExpressApplication>(AppModule);
- app.useStaticAssets(join(__dirname, '..', 'static'));
+ app.useStaticAssets(join(__dirname, '..', 'src/static'));
  await app.listen(3000);
   app.enableCors();
 }
